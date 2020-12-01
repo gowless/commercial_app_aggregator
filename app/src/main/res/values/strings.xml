@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Кот Кредит</string>
+    <string name="stavka">Ставка</string>
+    <string name="FirstCredit">Первый кредит</string>
+    <string name="first_credit">Первый кредит</string>
+    <string name="more_one">Повторный кредит:</string>
+    <string name="needs_to_man">ТРЕБОВАНИЯ К ЗАЕМЩИКАМ</string>
+    <string name="needs_to_get_loan">УСЛОВИЯ ПОЛУЧЕНИЯ ЗАЙМА</string>
+    <string name="primer">"Сумма и срок займа: 12000 гривен на 149 дней
+Комиссия за пользование кредитом: 1% в день (120 гривен/день)
+Общая сумма комиссии: 17880 гривен
+Общая сумма к возврату с учетом суммы займа: 29880 гривен
+ПСК (полная стоимость кредита) в процентах составляет 149% годовых "</string>
+    <string name="prolongation">ПРОЛОНГАЦИЯ</string>
+    <string name="possibility">"ПОСЛЕДСТВИЯ НЕВЫПЛАТЫ ЗАЙМА"</string>
+    <string name="not_paying">В случае нарушения сроков выплаты онлайн займа, размер неустойки может составить 0,10% от общей суммы просрочки в день, но не более 10% от суммы всего кредита.
+</string>
+    <string name="example">ПРИМЕР РАССЧЕТА ЗАЙМА</string>
+    <string name="age">Возраст</string>
+    <string name="facebook_app_id">182352746762135</string>
+
+</resources>

@@ -1,0 +1,99 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FAFAFA</item>
+        <item name="colorPrimaryDark">#FAFAFA</item>
+        <item name="colorAccent">#FAFAFA</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">#FAFAFA</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
+
+    <style name="AppMain" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="colorPrimary">#FAFAFA</item>
+        <item name="colorPrimaryDark">#F2F4F9</item>
+        <item name="colorAccent">@color/ic_launcher_background</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">#FAFAFA</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
+    <style name="ActivityCloak" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">#FAFAFA</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="colorPrimary">#FAFAFA</item>
+        <item name="colorPrimaryDark">#04A60A</item>
+        <item name="colorAccent">@color/ic_launcher_background</item>
+    </style>
+
+    <style name="AppThemeInformation" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">#FAFAFA</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="colorPrimary">#FAFAFA</item>
+        <item name="colorPrimaryDark">#04A60A</item>
+        <item name="colorAccent">#FAFAFA</item>
+    </style>
+
+    <style name="ActivityInfoDetails" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Customize your theme here. -->
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">#FAFAFA</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="colorPrimary">#FAFAFA</item>
+        <item name="colorPrimaryDark">#04A60A</item>
+        <item name="colorAccent">@color/main_text_color</item>
+    </style>
+
+    <style name="ActivitySplash" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">
+            @color/ic_launcher_background
+        </item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="colorPrimary">#0456E8</item>
+        <item name="colorPrimaryDark">#04A60A</item>
+        <item name="colorAccent">#149E3E</item>
+        <item name="android:windowBackground">@color/ic_launcher_background</item>
+        <item name="android:drawable">@mipmap/icon</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">
+            @color/ic_launcher_background
+        </item>
+        <item name="background">@mipmap/icon</item>
+        <item name="android:gravity">center</item>
+        <item name="android:src">@mipmap/icon</item>
+
+    </style>
+
+
+    <style name="CloakDetails" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">#FAFAFA</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="colorPrimary">#FAFAFA</item>
+        <item name="colorPrimaryDark">#04A60A</item>
+        <item name="colorAccent">@color/ic_launcher_background</item>
+    </style>
+
+
+    <style name="BeforeMain" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">#FAFAFA</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="colorPrimary">#FAFAFA</item>
+        <item name="colorPrimaryDark">#04A60A</item>
+        <item name="colorAccent">@color/ic_launcher_background</item>
+    </style>
+
+
+</resources>

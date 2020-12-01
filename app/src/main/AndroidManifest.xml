@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.orkotkreditru">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Optional : -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name=".MainClass"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="Instantiatable"
+        tools:targetApi="m">
+        <activity android:name=".activities.InfoNonCategoryActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activities.BeforeMainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BeforeMain" />
+        <activity
+            android:name=".activities.NonCategoriesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.InfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeInformation" />
+        <activity
+            android:name=".activities.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppMain" />
+        <activity
+            android:name=".activities.CloakActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityCloak" />
+        <activity
+            android:name=".activities.InfoDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityInfoDetails" />
+        <activity
+            android:name=".activities.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivitySplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.DetailsOfferActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/CloakDetails" />
+
+        <receiver
+            android:name="com.adjust.sdk.AdjustReferrerReceiver"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+
+    </application>
+
+</manifest>

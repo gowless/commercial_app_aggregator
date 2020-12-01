@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "936463999289",
+    "firebase_url": "https://kotkreditru.firebaseio.com",
+    "project_id": "kotkreditru",
+    "storage_bucket": "kotkreditru.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936463999289:android:78569b7f3a269f9d1a88e8",
+        "android_client_info": {
+          "package_name": "com.orkotkreditru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936463999289-dorkm3tmiecvu0c6067rjeijg7gjd38h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.orkotkreditru",
+            "certificate_hash": "4495af999229fb20cc8d0e9cb722650a852aa1ac"
+          }
+        },
+        {
+          "client_id": "936463999289-lrmgcmtn2iuf76ajirfn0jcmo1mf9lca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFO8hi33YfYsfiQAJh-diIJOwAV831JWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936463999289-lrmgcmtn2iuf76ajirfn0jcmo1mf9lca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
